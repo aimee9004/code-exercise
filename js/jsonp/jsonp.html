@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Wsscat's jsonp</title>
+    </head>
+    <body>
+        <button onclick="jsonpServer('jsonp.php')">JSONP</button>
+    </body>
+    <script>
+        function jsonpServer(url) {
+            var script = document.createElement("script");
+            script.setAttribute("type", "text/javascript");
+            script.setAttribute("src", url);
+            document.body.appendChild(script);
+        }   
+        function JSON_CALLBACK(data) {
+            console.log(data);
+        }
+    </script>
+</html>
