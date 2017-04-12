@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="Expires" CONTENT="-1">
+    <meta http-equiv="Cache-Control" CONTENT="no-cache">
+    <meta http-equiv="Pragma" CONTENT="no-cache">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/swiper.min.css">
+    <link rel="stylesheet" href="../css/index2.css" />
+    <title></title>
+</head>
+
+<body>
+
+    <!-- Swiper -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="../images/tt1.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="../images/tt2.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="../images/tt3.jpg" alt=""></div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
+
+    <footer>
+        <ul>
+            <li class="on"><a href="#"><i class="tabTag1"></i>首页</a></li>
+            <li><a href="#"><i class="tabTag2"></i>在线案件</a></li>
+            <li><a href="#"><i class="tabTag3"></i>在线咨询</a></li>
+            <li><a href="#"><i class="tabTag4"></i>伤残评估</a></li>
+        </ul>
+    </footer>
+
+    <!--<script src="../js/jquery.min.js"></script>-->
+    <script src="../js/swiper.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            pagination: '.swiper-pagination',
+            paginationClickable: true,
+            nextButton: '.swiper-button-next',
+            prevButton: '.swiper-button-prev',
+            // Enable debugger
+            debugger: true
+        });
+    </script>
+
+</body>
+
+</html>

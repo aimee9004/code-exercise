@@ -1,0 +1,116 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    overflow-y: auto;
+    overflow-x: hidden;
+    font-size: 16px;
+    font-family: "microsoft yahei";
+}
+
+body {
+    color: #333;
+    background: #ffffff;
+}
+
+textarea,
+input,
+code {
+    font-family: "Microsoft YaHei";
+}
+
+a {
+    text-decoration: none;
+    color: #333333;
+    cursor: pointer;
+    outline: none;
+}
+
+img {
+    border: none;
+}
+
+ul,
+li {
+    list-style-type: none;
+}
+
+input,
+button {
+    outline: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+button {
+    background: none;
+    border: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: calc(100vw/6.4);
+}
+
+@media screen and (min-width: 360px) {
+    html {
+        font-size: 56px;
+    }
+}
+
+@media screen and (min-width: 400px) {
+    html {
+        font-size: 63px;
+    }
+}
+
+@media screen and (min-width: 440px) {
+    html {
+        font-size: 69px;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    html {
+        font-size: 75px;
+    }
+}
+
+@media screen and (min-width: 640px) {
+    html {
+        font-size: 100px;
+    }
+}
+
+.clear {
+    clear: both;
+}
+
+i {
+    display: inline-block;
+}
+
+.clearfix:after {
+    content: '';
+    display: block;
+    clear: both;
+}

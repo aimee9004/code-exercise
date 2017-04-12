@@ -1,0 +1,102 @@
+.swiper-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 1.52rem;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: 100%;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 1.52rem;
+}
+
+footer ul {
+    overflow: hidden;
+    height: 100%;
+}
+
+footer ul li {
+    float: left;
+    height: 100%;
+    width: 25%;
+    text-align: center;
+}
+
+footer ul li a {
+    font-size: .24rem;
+    color: #333333;
+    display: block;
+    height: 100%;
+}
+
+footer ul li.on a {
+    color: #296894;
+}
+
+footer ul li a i {
+    display: block;
+    margin: .35rem 0 .21rem;
+}
+
+i.tabTag1 {
+    background: url('../images/index-icon.png') no-repeat center center;
+    background-size: contain;
+    width: 100%;
+    height: .45rem;
+}
+
+i.tabTag2 {
+    background: url('../images/p2Tab-icon2.png') no-repeat center center;
+    background-size: contain;
+    width: 100%;
+    height: .45rem;
+}
+
+i.tabTag3 {
+    background: url('../images/p2Tab-icon3.png') no-repeat center center;
+    background-size: contain;
+    width: 100%;
+    height: .45rem;
+}
+
+i.tabTag4 {
+    background: url('../images/p2Tab-icon4.png') no-repeat center center;
+    background-size: contain;
+    width: 100%;
+    height: .45rem;
+}
+
+footer ul li.on i.tabTag1 {
+    background: url('../images/indexSel-icon.png') no-repeat center center;
+    background-size: contain;
+    width: 100%;
+    height: .45rem;
+}
+
+footer ul li.on i.tabTag2 {
+    background: url('../images/p2TabSel-cion2.png') no-repeat center center;
+    background-size: contain;
+    width: 100%;
+    height: .45rem;
+}
+
+footer ul li.on i.tabTag3 {
+    background: url('../images/p2TabSel-icon3.png') no-repeat center center;
+    background-size: contain;
+    width: 100%;
+    height: .45rem;
+}
+
+footer ul li.on i.tabTag4 {
+    background: url('../images/p2TabSel-icon4.png') no-repeat center center;
+    background-size: contain;
+    width: 100%;
+    height: .45rem;
+}
