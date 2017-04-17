@@ -114,3 +114,81 @@ i {
     display: block;
     clear: both;
 }
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 1.3rem;
+    background-color: #f9f9f9;
+}
+
+footer ul {
+    overflow: hidden;
+    height: 100%;
+}
+
+footer ul li {
+    float: left;
+    height: 100%;
+    width: 33.33%;
+    text-align: center;
+}
+
+footer ul li a {
+    font-size: .24rem;
+    color: #333333;
+    display: block;
+    height: 100%;
+}
+
+footer ul li.on a {
+    color: #296894;
+}
+
+footer ul li a i {
+    display: block;
+    margin: .2rem 0 .15rem;
+}
+
+i.indexTag {
+    background: url('../images/index-icon.png') no-repeat center center;
+    background-size: contain;
+    width: 100%;
+    height: .45rem;
+}
+
+i.immediateDownloadTag {
+    background: url('../images/download-icon.png') no-repeat center center;
+    background-size: contain;
+    width: 100%;
+    height: .45rem;
+}
+
+i.onlineMessageTag {
+    background: url('../images/message-icon.png') no-repeat center center;
+    background-size: contain;
+    width: 100%;
+    height: .45rem;
+}
+
+footer ul li.on i.indexTag {
+    background: url('../images/indexSel-icon.png') no-repeat center center;
+    background-size: contain;
+    width: 100%;
+    height: .45rem;
+}
+
+footer ul li.on i.immediateDownloadTag {
+    background: url('../images/downloadSel-icon.png') no-repeat center center;
+    background-size: contain;
+    width: 100%;
+    height: .45rem;
+}
+
+footer ul li.on i.onlineMessageTag {
+    background: url('../images/messageSel-icon.png') no-repeat center center;
+    background-size: contain;
+    width: 100%;
+    height: .45rem;
+}
