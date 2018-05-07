@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    123
+    <script>
+        var a = [ 3, 'a', 'a', 'a', 2, 3, 'a', 3, 'a', 2, 4, 9, 3 ]
+        // 获取数组中出现次数最多的元素
+        function getMax(a) {
+            var obj = {}
+            var maxNum = 0
+            var maxEle
+            for(var i = 0; i < a.length; i++) {
+                if(!obj[a[i]]) {
+                    obj[a[i]] = 1
+                }else {
+                    obj[a[i]]++
+                }
+                if(obj[a[i]] > maxNum) {
+                    maxNum = obj[a[i]]
+                    maxEle = a[i]
+                }
+            }
+            return maxEle
+        }
+        console.log(getMax(a))
+
+        function countWords(message) {
+            var arr = message.split(' ')
+            return arr.length
+        }
+        countWords('Good morning, I love JavaScript.')  // should return 5
+    </script>
+</body>
+</html>
